@@ -17,9 +17,7 @@ function App() {
   return (
     <div>
         <Header />
-        <Location 
-          {...data[0]}
-        />
+        {locations}
     </div>
   )
 }

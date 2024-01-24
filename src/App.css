@@ -31,14 +31,15 @@ body {
   height: 168px;
   font-size: 10.24px;
   display: flex;
-  margin-bottom: 36px;
   margin: 0 auto;
+  margin-bottom: 36px;
 }
 
 .location-image {
   width: 125px;
   height: 168px;
   border-radius: 5px;
+  object-fit: cover;
 }
 
 .location-logo {
@@ -69,10 +70,8 @@ body {
   line-height: 150%;
 }
 
-.location-info {
-  max-width: 169px;
-  display: flex;
-  justify-content: space-between;
+.location {
+  margin: 5px;
 }
 
 .card-content {
